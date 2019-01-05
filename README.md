@@ -1,5 +1,5 @@
 # Project 3: RESTful Web API with Node.js Framework
-Create a web API using Node.js framework, Exprss that will interact with the private blockchain. 
+This application provides a web API using Node.js Express Framework that will interact with the private blockchain. 
 
 ## Installing
 
