@@ -33,7 +33,7 @@ class BlockController{
         this.app.post("/block", (req, res) => {
             const body = req.body;
             if (Utils.isEmpty(body)){
-                res.send("Unacceptable content...\n");
+                res.send({error: "Unacceptable content"});
             }else{
                 let newBlock = new BlockClass.Block(body.data);
                 blockChain.addBlock(newBlock).then((result) => {
